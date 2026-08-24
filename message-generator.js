@@ -23,6 +23,6 @@ const selectPositiveMessage = positiveMessage[randomPositiveMessage];
 const randomencouragement = Math.floor(Math.random() * 3);
 const selectEncouragement = encouragement[randomencouragement];
 
-const final = selectedOpening + " "+ selectPositiveMessage +" "+ selectEncouragement ;
+const final = selectedOpening + ". "+ selectPositiveMessage +". "+ selectEncouragement ;
 
 console.log(final);
